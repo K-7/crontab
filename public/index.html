@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport>
+    <meta content="Crontab syntax editor and reference for us humans." name=description>
+    <link href=/css/style.css rel=stylesheet />
+    <link href=data:, rel=icon>
+    <script defer src=https://wallaby.cron.help/script.js site=CLRJZAZM></script>
+    <script defer src=/js/app.js></script>
+    <title>Crontab syntax for us humands -- Cron Helper</title>
+</head>
+
+<body>
+    <div class=container>
+        <header>
+            <nav>
+                <h1 class=header-logo><a href=/>Cron Helper</a></h1>
+                <h4 class=header-description>
+                    <a href="https://k2a.in/" target="_blank">
+                        <span class="font-weight-700 title-large position-relative blue">k&#178;a</span>
+                    </a>
+                </h4>
+            </nav>
+        </header>
+        <div class="content editor">
+            <div class=description>
+                <div class=text>Every 5 minutes</div>
+            </div>
+            <div class=schedule><input aria-label="Cron schedule" autofocus class=schedule title="Cron schedule"
+                    value="*/5 * * * *"> <button class=copy data-clipboard-target=input.schedule><img
+                        alt="Copy Schedule" src=/images/clipboard.svg title="Copy Schedule"></button></div>
+            <div class=breakdown>
+                <h2 class="heading minute">Minutes</h2>
+                <div class="text minute">all</div>
+                <h2 class="heading hour">Hours</h2>
+                <div class="text hour">all</div>
+                <h2 class="heading day-of-month">Day of Month</h2>
+                <div class="text day-of-month">all</div>
+                <h2 class="heading month">Month</h2>
+                <div class="text month">all</div>
+                <h2 class="heading day-of-week">Day of Week</h2>
+                <div class="text day-of-week">all</div>
+            </div>
+            <div class=details>
+                <div class=general>
+                    <dl>
+                        <dt>*</dt>
+                        <dd>Expands to all values for the field</dd>
+                        <dt>,</dt>
+                        <dd>List separator</dd>
+                        <dt>-</dt>
+                        <dd>Range separator</dd>
+                        <dt>/</dt>
+                        <dd>Specifies step for ranges</dd>
+                        <dt>@hourly</dt>
+                        <dd>Run at the start of each hour</dd>
+                        <dt>@daily</dt>
+                        <dd>Run every day at midnight UTC</dd>
+                        <dt>@weekly</dt>
+                        <dd>Run at every Sunday at midnight UTC</dd>
+                        <dt>@monthly</dt>
+                        <dd>Run on the 1st of each month at midnight UTC</dd>
+                        <dt>@yearly</dt>
+                        <dd>Run on Jan 1st at midnight UTC</dd>
+                        <dt>@annually</dt>
+                        <dd>Same as <b>@yearly</b></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><a href=https://k2a.in target="_blank" title="Copyright Collective Idea">© K2A</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
